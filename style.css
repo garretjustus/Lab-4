@@ -1,0 +1,56 @@
+body {
+	text-align: center;
+}
+
+.challenge1 {
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.challenge1-total {
+}
+
+.challenge-names {
+	font-size: 24px;
+}
+
+.coin {
+	border-radius: 50%;
+}
+
+.penny {
+	height: 50px;
+	width: 50px;
+	background-color: brown;
+}
+
+.nickel {
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	background-color: silver;
+}
+.dime {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: silver;
+}
+
+.quarter {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: silver;
+}
+
+.bulb {
+	width: 100px;
+	height: 200px;
+	background-color: dimgray;
+}
+
+.light {
+	background-color: gold;
+}

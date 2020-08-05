@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JS Lab 4</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Challenge 1  -->
+
+	<p class="challenge-names">Challenge 1</p>
+       <p class="total">Total: $0</p>
+			<button class="btn" data-amount="2">Lime Cola $2.00</button>
+			<button class="btn" data-amount="3">
+				Salted Peanuts $3.00
+			</button>
+			<button class="btn" data-amount="4">
+				Chocolate Bar $4.00
+			</button>
+			<button class="btn" data-amount="6">
+				Fruit Gummies $6.00
+			</button>
+		</form>
+	
+
+		<!-- Challenge 2 -->
+
+		<p class="challenge-names">Challenge 2</p>
+		<form class="money-form">
+			<label for="amount">How many?</label>
+			<input type="text" id="amount" name="amount"/>
+
+			<label for="type">Which coin?</label>
+			<select name="type" id="type">
+				<option value="penny" data-amount=".01">Penny</option>
+				<option value="nickel" data-amount=".05">Nickel</option>
+				<option value="dime" data-amount=".10">Dime</option>
+				<option value="quarter" data-amount=".25">Quarter</option>
+			</select>
+
+			<button class="make-money">Make Money!</button>
+        </form>
+        <div class="coin-container"></div>
+
+        <!-- Challenge 3 -->
+        <section>
+        <p class="challenge-names">Challenge 3</p>
+        <div class="bulb">
+            <button class="on">On</button>
+            <button class="off">Off</button>
+            <button class="toggle">Toggle</button>
+            <button class="end switch">End</button>
+        </div>
+        </section>
+		<script src="script.js"></script>
+	</body>
+</html>
